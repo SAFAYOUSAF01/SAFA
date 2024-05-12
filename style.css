@@ -13,3 +13,23 @@
 .span{
     color: aliceblue;
 }
+.main{
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+ background-color: brown;
+ margin: 20px;
+ padding: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.two{
+ background-color: crimson;
+ margin: 30px;
+ padding: 50px;
+}
