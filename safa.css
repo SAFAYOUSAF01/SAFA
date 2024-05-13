@@ -1,0 +1,127 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.left-menu a,
+.right-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+}
+
+.left-menu {
+    flex-grow: 1;
+}
+
+.right-menu {
+    flex-grow: 0;
+}
+
+.categories-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px; 
+}
+
+.categories-title h2 {
+    font-weight: bold;
+}
+
+.main {
+    background-color:darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 100px;
+}
+
+.one,
+.two,
+.three {
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    max-width: 300px; }
+
+.one img,
+.two img,
+.three img {
+    max-width: 100%; 
+    height: auto;
+    margin-bottom: 15px; 
+}
+.one{
+background-color: aliceblue;
+}
+.two{
+ background-color: grey;
+}
+.three{
+background-color: paleturquoise;
+}
+img {
+    max-width: 300px; 
+    height: 300px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.right-corner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-left: 10px; 
+}
+
+.one h1,
+.two h1,
+.three h1 {
+    margin-bottom: 30px; 
+}
+
+.one p,
+.two p,
+.three p {
+    text-align: justify; 
+    margin-bottom: 30px; 
+}
+.subclass {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    padding-right: 30px;
+    margin-top: 100px;
+}
+
+.four,
+.five {
+    flex: 1;
+    max-width: calc(40% - 30px); 
+    margin: 20px;
+}
+
+.five {
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.five h1,
+.five p {
+    text-align: center;
+    margin: 10px;
+}
+body{
+    background-color: darkgray;
+}
+
